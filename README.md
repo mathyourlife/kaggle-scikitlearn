@@ -3,6 +3,12 @@ kaggle-scikitlearn
 
 Hacking on python for kaggle scikit-learn
 
+Findings
+--------
+
+Data columns that seem to be the most useful (0-based numbering)
+12, 14, 23, 4, 18, 39, 6, 36, 32, 34, 28
+
 Notes
 -----
 
