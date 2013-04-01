@@ -1,8 +1,8 @@
 import numpy as np
 
-train = np.genfromtxt('../data/train.csv', delimiter=',')
-trainLabels = np.genfromtxt('../data/trainLabels.csv', delimiter=',', dtype=int)
-test = np.genfromtxt('../data/test.csv', delimiter=',')
+train = np.genfromtxt('data/train.csv', delimiter=',')
+trainLabels = np.genfromtxt('data/trainLabels.csv', delimiter=',', dtype=int)
+test = np.genfromtxt('data/test.csv', delimiter=',')
 
 from sklearn.svm import LinearSVC
 

@@ -29,7 +29,7 @@ check_train = np.round(check_train)
 check_train[check_train > 1] = 1
 check_train[check_train < 0] = 0
 
-sum(abs(check_train - y.T))
+print sum(abs(check_train - y.T))
 
 import matplotlib.pyplot as plt
 
